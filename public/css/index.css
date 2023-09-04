@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.return {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+	text-decoration-line: underline;
+	color: #66707a;
+}
+.antialiased h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* etoile/index.php */
+.concept {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-concept {
+	margin-bottom: 20px;
+}
+.top-concept img {
+    width: 30%;
+    height: auto;
+}
+.top-concept p {
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+}
+.top-concept a {
+    font-size: x-large;
+    text-align: center;
+}
+.user_button {
+	margin-top: 10px;
+}
+
+.menu {
+	margin: 20px, 0;
+}
+.menu ul {
+	list-style-type: none; /*箇条書きのポッチを消す*/
+	text-align:center /*左右中央寄せは親要素に対して指定*/
+  }
+
+.menu ul li { 
+	display: inline-block;/*inline-blockにします*/
+	/* width: 80px;幅も指定できる */
+	padding: 50px 50px;/*余白も指定できる*/
+	margin: 10px 0;/*余白も指定できる*/
+	vertical-align: middle;/*縦の表示位置も指定できる*/
+	background-color: rosybrown;
+	font-weight: bold;/*文字を太字に*/
+	color:white; /*文字色を白に*/
+  }
+
+  /* menuDetail.php */
+.menuTitle {
+    font-size: 50px;
+    font-weight: 500;
+    text-align:left;
+    margin-bottom: 30px;
+	padding-left: 20px;
+	color: #66707a;
+}
+.menu a {
+	text-align: end;
+}
+.menu_detail {
+	width: 75%;
+	text-align: center;
+}
+
+.detail {
+	display: block;/*blockにします*/
+	width: 100%;/*幅も指定できる*/
+	padding: 5% 10%;/*余白も指定できる*/
+	margin-bottom: 10%;/*余白も指定できる*/
+	vertical-align: middle;/*縦の表示位置も指定できる*/
+	background-color: rosybrown;
+	font-weight: bold;/*文字を太字に*/
+	color:white; /*文字色を白に*/
+}
+.detail label {
+	font-size:xx-large;
+}
+.detail a {
+	font-size: larger;
+}
+
+/* userlist.php */
+.tableContainer table {
+	width:80%;
+	text-align: left;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tableContainer th {
+	padding: 10px;
+	border-bottom: solid 5px #748ca5;
+   }
+.tableContainer td {
+	padding: 10px;
+	border-bottom: solid 1px #748ca5;
+   }
+.datatable {
+    background-color: aliceblue;
+}
+
+/* home.php */
+.admin_top {
+	margin-left: auto;
+    margin-right: auto;
+	border: solid 3px;
+	background-color: whitesmoke;
+	width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	padding: 20px;
+}
+.admin_top p {
+	background-color: rgb(182, 195, 220);
+	padding: 30px 50px;
+	width: 50%;
+	font-size: larger;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.admin_top h2 {
+    text-align: center;
+	padding: 20px;
+	text-decoration-line: underline;
+	color: rgb(9, 0, 42);
+}
+
+.admin_top h2 a {
+	color: rgb(9, 0, 42);
+}
+
+.navbar-brand {
+	color: rgb(9, 0, 42);
+}
+
+.info a {
+	color: rgb(9, 0, 42);
+}
+
+/* adminLogin.php */
+.cover_adminlogin {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adminlogin {
+	text-align: left;
+	font-size: 20px;
+    font-weight: 200;
+}
+.adminlogin input {
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.antialiased button {
+	font-size: 15px;
+	padding: 7px;
+	margin: 10px;
+}
+
+.antialiased {
+    background-color:#c0cedd;
+	margin: 0;
+}
+.antialiased header {
+    padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	background-color: white;
+}
+.registerForm {
+    margin-left: auto;
+    margin-right: auto;
+}
+.for_admin a {
+	display: block;
+    font-size: 15px;
+    text-align:right;
+    margin: 20px;
+	padding-right: 50px;
+}
+
+/* adminRegister.php */
+
+.adminRegister_select {
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+
+/* reservations */
+.mb-5container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.mb-5 {
+	margin: 20px;
+	background-color: whitesmoke;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.mb-5container .mb-5 h4 {
+	padding: 15px;
+	font-size:xx-large;
+	font-weight: bold;/*文字を太字に*/
+	color:rosybrown; /*文字色を白に*/
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.reservation_index {
+	background-color: rgb(234, 230, 237);
+}
+.mb-4container {
+	text-align: center;
+}
+
+/* admin/edit */
+.red-point {
+	color: rgb(174, 18, 18);
+}
+.error-msg {
+	color: rgb(174, 18, 18);
+}
+.admin_edit {
+	margin-left: auto;
+    margin-right: auto;
+	border: solid 3px;
+	background-color: whitesmoke;
+	width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.admin_edit .edit_attention {
+	border-bottom: solid 1px #748ca5;
+}
+.edit_content a {
+	font-size:x-large;
+	padding-bottom: 2%;
+}
+.edit_content input {
+	font-size: larger;
+	padding: 1%;
+	margin-bottom: 5%;
+}
+.edit_content option {
+	font-size: larger;
+	padding: 1%;
+	margin-bottom: 5%;
+}
+.admin_update {
+	margin-left: auto;
+    margin-right: auto;
+	border: solid 3px;
+	background-color: whitesmoke;
+	width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	text-align: center;
+	padding: 30px;
+}
+.admin_update p {
+	font-size: larger;
+	padding-bottom: 15px;
+}
+.admin_update a {
+	font-size: larger;
+}
+
+/* dashboard */
+.dashboard h1 {
+	text-align: center;
+}
+.dashbord_situ {
+	padding: 30px 50px;
+	width: 100%;
+	font-size: x-large;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border-bottom: solid 5px rosybrown;
+}
+.dashbord_content {
+	padding: 30px 50px;
+	width: 100%;
+	font-size: x-large;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border-bottom: solid 5px rosybrown;
+}
+.dashboard_top {
+	margin-left: auto;
+    margin-right: auto;
+	border: solid 3px;
+	background-color: whitesmoke;
+	width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dashboard_top table a {
+	font-size: medium;
+}
+.dashboard_top table {
+	text-align: center;
+}
+.dashboard_top a {
+	font-size: x-large;
+}
+.new_reservation {
+	padding: 15px;
+	text-align: center;
+}
+.new_reservation a {
+	padding: 10px;
+	font-size:medium;
+}
+.taikai {
+	background-color: rgb(234, 230, 237);
+	text-decoration:underline;	
+	width: 80%;
+	text-align: right;
+	margin-top: 10px;
+	color: #748ca5;
+}
+
+.body_dash {
+	background-color: rgb(234, 230, 237);
+}
