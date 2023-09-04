@@ -7,16 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
-## About This Project
+## etoile(エトワール)
 
-このプロジェクトは、[Laravel](https://laravel.com/)を用いて、簡単に予約、顧客管理ができるウェブアプリケーションです。
+##概要
+エステサロンの予約ができるホームページを作成しました。
+会員と管理者それぞれログイン機能があります。
 
-機能
+##機能
+###管理者
+-予約の確認、編集、削除
+-会員の確認、削除
 
-- カレンダー表示
-- 予約の追加と削除
-- 管理者による、予約と顧客管理
+*アカウント*:
+-kannrisya@gmail.com
+-kannrisya09
+
+###会員
+-施術の確認
+-予約
+-予約キャンセル
+-退会
+
+*アカウント*:
+-kaiinn@gmail.com
+-kaiinn09
+
+##環境
+MAMP/MySQL/PHP
+
+##データベース
+データベース名：etoile
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
