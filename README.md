@@ -8,6 +8,16 @@
 </p>
 
 ## About Laravel
+## About This Project
+
+このプロジェクトは、[Laravel](https://laravel.com/)を用いて、簡単に予約、顧客管理ができるウェブアプリケーションです。
+
+機能
+
+- カレンダー表示
+- 予約の追加と削除
+- 管理者による、予約と顧客管理
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
